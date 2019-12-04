@@ -1,0 +1,54 @@
+TOKEN			LEXEME			ATTRIBUTE
+------------------------------------------------------------------------
+TITLE			** TENNIS INFO **
+OBJNUM			#1			1
+ATTR			<name>			name
+NAME			"Martina Navratilova"	Martina Navratilova
+ATTR			<gender>		gender
+GENDER			Woman			Woman
+ATTR			<Wimbledon>		Wimbledon
+YEAR			1978			1978
+COMMA			,
+YEAR			1979			1979
+COMMA			,
+YEAR			1982-1987		1982-1987
+COMMA			,
+YEAR			1990			1990
+ATTR			<Australian Open>	Australian Open
+YEAR			1981			1981
+COMMA			,
+YEAR			1983			1983
+COMMA			,
+YEAR			1985			1985
+OBJNUM			#2			2
+ATTR			<name>			name
+NAME			"Novak Djokovic"	Novak Djokovic
+ATTR			<gender>		gender
+GENDER			Man			Man
+ATTR			<Wimbledon>		Wimbledon
+YEAR			2011			2011
+COMMA			,
+YEAR			2014			2014
+COMMA			,
+YEAR			2015			2015
+COMMA			,
+YEAR			2018			2018
+COMMA			,
+YEAR			2019			2019
+ATTR			<Australian Open>	Australian Open
+YEAR			2008			2008
+COMMA			,
+YEAR			2011-2013		2011-2013
+COMMA			,
+YEAR			2015			2015
+COMMA			,
+YEAR			2016			2016
+COMMA			,
+YEAR			2019			2019
+OBJNUM			#3			3
+ATTR			<name>			name
+NAME			"Simona Halep"		Simona Halep
+ATTR			<gender>		gender
+GENDER			Woman			Woman
+ATTR			<Wimbledon>		Wimbledon
+YEAR			2019			2019
