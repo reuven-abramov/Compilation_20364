@@ -60,7 +60,8 @@ main (int argc, char **argv)
     yyin = fopen(argv[1], "r");
 
     while ((token = yylex()) != 0)
-        printf("LINE: %d\tTOKEN: %d\tLEXEME: %s\n", token, yytext);
+        printf("LINE: %d\tTOKEN: %d\tLEXEME: %s\n", line, token, yytext);
+    printf("End Of File");
     fclose(yyin);
     exit(0);
 }
