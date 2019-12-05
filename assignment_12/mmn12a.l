@@ -36,14 +36,14 @@
 "&&"                            { strcpy(yylval.op, yytext); return AND; }
 "!"                             { strcpy(yylval.op, yytext); return NOT; }
 
-[^a-zA-Z0-9][a-zA-Z][a-zA-Z0-9]{0,8}[^a-zA-Z0-9]            { strcpy(yylval.id, yytext); return ID; }
+[a-zA-Z][a-zA-Z0-9]*            { if(strlen(yytext) > 9) printf("ERROR: ID cannot be longer the 9 characters\n");
+                                  else strcpy(yylval.id, yytext); return ID; }
 ([0-9]+|[0-9]+"."[0-9]+)        { yylval.num = atoi(yytext); return NUM; }
 
 \n                              { line++; }
-
 [\t ]+
 "/*".*"*/"
-.                              //{ printf("unrecognized token %c\n", yytext[0]); }
+.                              { printf("unrecognized token %c\n", yytext[0]); }
 
 %%
 
@@ -60,7 +60,7 @@ main (int argc, char **argv)
     yyin = fopen(argv[1], "r");
 
     while ((token = yylex()) != 0)
-        printf("TOKEN: %d\tLEXEME: %s\n", token, yytext);
+        printf("LINE: %d\tTOKEN: %d\tLEXEME: %s\n", token, yytext);
     fclose(yyin);
     exit(0);
 }
