@@ -38,6 +38,8 @@
 #define NUM 402
 
 int line = 1;
+char tokenName[12];
+char tokenDescription[50];
 union {
     char op[3];
     char id[10];

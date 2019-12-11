@@ -1,0 +1,71 @@
+LINE:  2	TOKEN: ID	LEXEME: a	Identifier: a
+An identifier
+LINE:  2	TOKEN: COMMA	LEXEME: ,
+Comma symbol
+LINE:  2	TOKEN: ID	LEXEME: b	Identifier: b
+An identifier
+LINE:  2	TOKEN: COLON	LEXEME: :
+Colon symbol
+LINE:  2	TOKEN: FLOAT	LEXEME: float
+float keyword
+LINE:  2	TOKEN: SEMCOLON	LEXEME: ;
+Semi-colon symbol
+LINE:  4	TOKEN: LFBRACK	LEXEME: {
+Left brackets symbol
+LINE:  5	TOKEN: INPUT	LEXEME: input
+input keyword
+LINE:  5	TOKEN: LFPAREN	LEXEME: (
+Left ‏parentheses symbol
+LINE:  5	TOKEN: ID	LEXEME: a	Identifier: a
+An identifier
+LINE:  5	TOKEN: RTPAREN	LEXEME: )
+Right ‏parentheses symbol
+LINE:  5	TOKEN: SEMCOLON	LEXEME: ;
+Semi-colon symbol
+LINE:  6	TOKEN: INPUT	LEXEME: input
+input keyword
+LINE:  6	TOKEN: LFPAREN	LEXEME: (
+Left ‏parentheses symbol
+LINE:  6	TOKEN: ID	LEXEME: b	Identifier: b
+An identifier
+LINE:  6	TOKEN: RTPAREN	LEXEME: )
+Right ‏parentheses symbol
+LINE:  6	TOKEN: SEMCOLON	LEXEME: ;
+Semi-colon symbol
+LINE:  8	TOKEN: IF	LEXEME: if
+if keyword
+LINE:  8	TOKEN: LFPAREN	LEXEME: (
+Left ‏parentheses symbol
+LINE:  8	TOKEN: ID	LEXEME: a	Identifier: a
+An identifier
+LINE:  8	TOKEN: RELOP	LEXEME: <	Operator: <
+Relational operator
+LINE:  8	TOKEN: ID	LEXEME: b	Identifier: b
+An identifier
+LINE:  8	TOKEN: RTPAREN	LEXEME: )
+Right ‏parentheses symbol
+LINE:  9	TOKEN: OUTPUT	LEXEME: output
+output keyword
+LINE:  9	TOKEN: LFPAREN	LEXEME: (
+Left ‏parentheses symbol
+LINE:  9	TOKEN: ID	LEXEME: a	Identifier: a
+An identifier
+LINE:  9	TOKEN: RTPAREN	LEXEME: )
+Right ‏parentheses symbol
+LINE:  9	TOKEN: SEMCOLON	LEXEME: ;
+Semi-colon symbol
+LINE:  10	TOKEN: ELSE	LEXEME: else
+else keyword
+LINE:  11	TOKEN: OUTPUT	LEXEME: output
+output keyword
+LINE:  11	TOKEN: LFPAREN	LEXEME: (
+Left ‏parentheses symbol
+LINE:  11	TOKEN: ID	LEXEME: b	Identifier: b
+An identifier
+LINE:  11	TOKEN: RTPAREN	LEXEME: )
+Right ‏parentheses symbol
+LINE:  11	TOKEN: SEMCOLON	LEXEME: ;
+Semi-colon symbol
+LINE:  12	TOKEN: LFBRACK	LEXEME: {
+Left brackets symbol
+** Written By Reuven Abramov **
